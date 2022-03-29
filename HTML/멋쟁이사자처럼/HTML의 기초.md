@@ -22,7 +22,7 @@
 * * *
 <br>
 
-[참조]<br>
+- 참조 <br>
 [WHATWG]<https://html.spec.whatwg.org/multipage/introduction.html#history-2> <br>
 [영문 위키피디아 HTML]<https://en.wikipedia.org/wiki/HTML#Transition_of_HTML_Publication_to_WHATWG> <br>
 [뉴스 기사]<https://zdnet.co.kr/view/?no=20190531184644/> <br>
