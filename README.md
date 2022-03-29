@@ -12,7 +12,7 @@ This is where I record what I leared today.
 
 ### CSS
 
-- [[멋쟁이사자처럼]]()
+- [[멋쟁이사자처럼]](https://github.com/bellnoona/TIL/tree/main/CSS/%EB%A9%8B%EC%9F%81%EC%9D%B4%EC%82%AC%EC%9E%90%EC%B2%98%EB%9F%BC)
 
 ### JavaScript
 
