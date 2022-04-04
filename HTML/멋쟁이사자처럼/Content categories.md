@@ -1,4 +1,4 @@
-# Content categories (컨텐츠 카테고리)
+# Contents Model (컨텐츠 모델)
 
 > HTML5 이전에는 HTML 태그 요소를 inline(인라인) 요소와 block(블록) 요소를 구분하는 정도로만 분류했었다.  
 > HTML5 이후부터는 요소별로 공통 특성을 공유하는 것끼리 그룹화하여 카테고리를 나누었다. 이렇게 그룹화한 것들을 **Contents Model (컨텐츠 모델)** 이라고 한다.  
