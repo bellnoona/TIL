@@ -1,7 +1,7 @@
-# Contents Model (컨텐츠 모델)
+# Content categories (컨텐츠 카테고리) / Sections
 
 > HTML5 이전에는 HTML 태그 요소를 inline(인라인) 요소와 block(블록) 요소를 구분하는 정도로만 분류했었다.  
-> HTML5 이후부터는 요소별로 공통 특성을 공유하는 것끼리 그룹화하여 카테고리를 나누었다. 이렇게 그룹화한 것들을 **Contents Model (컨텐츠 모델)** 이라고 한다.  
+> HTML5 이후부터는 요소별로 공통 특성을 공유하는 것끼리 그룹화하여 **카테고리**를 나누었다. 이렇게 그룹화한 것들을 **Contents Model (컨텐츠 모델)** 이라고 한다.  
 > 아래의 그림과 같이 요소의 특성에 따라 총 7개의 카테고리로 분류한다.
 
 - Metadata Content
@@ -41,7 +41,13 @@ Sectioning Content의 제목을 정의하는 컨텐츠이다.
 ![HTML Sections](https://paullabworkspace.notion.site/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2Faf935819-7f52-4de6-bdcb-a658a4ed1d01%2Fsection_fin.png?table=block&id=7af6cb15-bf67-4339-9e44-42c5ac77ded8&spaceId=579fe283-28aa-489d-ae65-d683304becfc&width=2000&userId=&cache=v2)
 ![Sectioning Content](https://paullabworkspace.notion.site/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2F561ed611-72a9-4e72-af3a-4daeb19c9909%2FUntitled.png?table=block&id=0905182b-4083-40d3-9314-aae473fc6ddf&spaceId=579fe283-28aa-489d-ae65-d683304becfc&width=2000&userId=&cache=v2)
 
-> ⭐️ `article` 개념이 다소 헷갈리기 때문에 확실히 기록하고 넘어가고자 한다!
+- `<body>` : 실제 사용자에게 보여지는 문서의 컨텐츠를 나타내는 요소이다.
+
+- `<header>` : 특정한 컨텐츠의 시작 부분을 나타내는 요소이다. 일반적으로 구역의 제목을 포함한다.
+
+<br>
+
+> ⭐️ `article` 개념이 다소 헷갈리기 때문에 확실히 기록하고 넘어가고자 한다! ⭐️
 
 - `<section>` : 일반적으로 연관성 있는 문서의 구획을 나누고자 할 때 사용하는 요소이다.
 
@@ -59,19 +65,33 @@ Sectioning Content의 제목을 정의하는 컨텐츠이다.
   하나의 문서에 여러 개의 `article`이 포함될 수 있다.  
   예컨대 사용자가 스크롤하면 계속해서 다음 글을 보여주는 블로그의 경우, 각각의 글이 `article` 요소가 되며, 그 안에는 또 여러 개의 `section`이 존재할 수 있다.
 
-  ![MDN 날씨 위젯](/imgs/widget.png)
+  ![mdn 날씨 위젯](/imgs/widget.png)
 
-> 💡 **section** vs **article**
+> 💡 **`section`** vs **`article`**
 >
-> - article 요소는 독립적 콘텐츠 (다른 서비스에 가져다 놔도 이상하지 않음)
-> - section 요소는 사이트 내 연관 콘텐츠 (다른 서비스에 가져다 놓으면 이상함)
-> - article과 section 요소는 heading 요소와 함께 사용하는 것을 권장 (높이 없이 비워두기도 함)
+> - `article` 요소는 독립적 콘텐츠 (다른 서비스에 가져다 놔도 이상하지 않음)
+> - `section` 요소는 사이트 내 연관 콘텐츠 (다른 서비스에 가져다 놓으면 이상함)
+> - `article`과 `section` 요소는 **heading 요소와 함께 사용**하는 것을 권장 (높이 없이 비워두기도 함)
 
-<!-- nav -->
+- `<nav>` : `nav` (네비게이션, 탐색) 요소는 보통 메뉴에 사용된다.
 
-<!-- aside -->
+```html
+<nav>
+  <a href="https://paullab.co.kr">바울랩</a>
+  <a href="https://naver.com">네이버</a>
+  <a href="https://google.com">구글</a>
+</nav>
+```
 
-<!-- heading content -->
+- `<aside>` : 해당 컨텐츠와는 별개 컨텐츠 (메인 컨텐츠와 간접적으로 관련된 부분)  
+  보통 사이드바나 광고 영역으로 활용한다.  
+  이미지처럼 꼭 오른쪽일 필요는 없다.(다른 요소도 마찬가지)
+  ![aside 예시 이미지](https://paullabworkspace.notion.site/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2Fa95fa398-2fb0-48ca-8371-9550dbc0535c%2FUntitled.png?table=block&id=35739c03-d01f-4a2d-9121-744d15d4cdf3&spaceId=579fe283-28aa-489d-ae65-d683304becfc&width=2000&userId=&cache=v2)  
+  ![mdn aside 이미지](/imgs/aside-img.png)
+
+- `<h1>` ... `<h6>` : heading은 제목을 지정하기 위해 사용된다.  
+  `<h1>내용</h1> ~ <h6>내용</h6>` 까지 중요도에 따라 사용되며, **단순히 글자를 크게 하거나 굵게 하기 위해 사용되지 않는다.**(이런 부분은 css로 처리하면 된다!)  
+  `<h1>` 요소는 페이지당 한번만 사용할 것을 권장한다.
 
 <!-- grpuping -->
 
