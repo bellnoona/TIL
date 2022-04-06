@@ -30,8 +30,8 @@ WHATWG 은 2004년 Apple, Mozilla 및 Opera 가 모여서 W3C의 느린 발전�
 
 <br>
 
-▶︎ 참조  
-WHATWG <https://html.spec.whatwg.org/multipage/introduction.html#history-2>  
-영문 위키피디아 HTML <https://en.wikipedia.org/wiki/HTML#Transition_of_HTML_Publication_to_WHATWG>  
-뉴스 기사 <https://zdnet.co.kr/view/?no=20190531184644/>  
-영문 위키피디아 WHATWG <https://en.wikipedia.org/wiki/WHATWG>
+> ▶︎ 참조  
+> WHATWG <https://html.spec.whatwg.org/multipage/introduction.html#history-2>  
+> 영문 위키피디아 HTML <https://en.wikipedia.org/wiki/HTML#Transition_of_HTML_Publication_to_WHATWG>  
+> 뉴스 기사 <https://zdnet.co.kr/view/?no=20190531184644/>  
+> 영문 위키피디아 WHATWG <https://en.wikipedia.org/wiki/WHATWG>
