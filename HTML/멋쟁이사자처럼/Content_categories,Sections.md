@@ -105,6 +105,20 @@ Sectioning Content의 제목을 정의하는 컨텐츠이다.
   >
   > ⭐️ 그리고 그림은 내가 한땀한땀 그린 것이다.. 나는 너무 힘들었다.. ⭐️
 
+  <br>
+
+- 다음과 같이 `<hgroup>`으로 대제목과 소제목을 나눌 수 있다.
+
+<iframe height="300" style="width: 100%;" scrolling="no" title="Untitled" src="https://codepen.io/bellnoona/embed/bGavpwe?default-tab=html%2Cresult&editable=true" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
+  See the Pen <a href="https://codepen.io/bellnoona/pen/bGavpwe">
+  Untitled</a> by Soohyeon Kim (<a href="https://codepen.io/bellnoona">@bellnoona</a>)
+  on <a href="https://codepen.io">CodePen</a>.
+</iframe>
+
+<!-- footer -->
+
+<!-- address -->
+
 <br>
 
 ---
