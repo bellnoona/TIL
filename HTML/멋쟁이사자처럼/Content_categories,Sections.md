@@ -13,6 +13,7 @@
 - Interacitve Content
 
 [![Sectioning Content](https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/Content_categories/content_categories_venn.png)](https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/Content_categories)
+
 ```
 ▶︎ 이미지를 누르면 mdn 사이트로 이동합니다.
 ```
@@ -112,15 +113,50 @@ Sectioning Content의 제목을 정의하는 컨텐츠이다.
 
 - 다음과 같이 `<hgroup>`으로 대제목과 소제목을 나눌 수 있다.
 
-<iframe height="300" style="width: 100%;" scrolling="no" title="Untitled" src="https://codepen.io/bellnoona/embed/bGavpwe?default-tab=html%2Cresult&editable=true" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
-  See the Pen <a href="https://codepen.io/bellnoona/pen/bGavpwe">
-  Untitled</a> by Soohyeon Kim (<a href="https://codepen.io/bellnoona">@bellnoona</a>)
-  on <a href="https://codepen.io">CodePen</a>.
-</iframe>
+```html
+<section>
+  <hgroup>
+    <h1>제목</h1>
+    <h2>소제목</h2>
+  </hgroup>
+  <p>
+    풀밭에 같지 전인 노년에게서 청춘의 방지하는 수 봄바람을 품고 칼이다. 전인
+    열락의 풀이 것이 기쁘며, 끝에 그들은 설레는 그리하였는가? 앞이 낙원을 수
+    얼음이 더운지라 있다. 꽃이 얼마나 붙잡아 열락의 바이며, 청춘이 끝에 말이다.
+    위하여서 인도하겠다는 싶이 바이며, 못할 심장은 얼마나 피다. 있는 긴지라
+    그들의 거친 피부가 웅대한 것은 가치를 같지 것이다. 거선의 가치를 천지는
+    그들은 뜨거운지라, 싸인 끓는 이 것이다. 보배를 만천하의 전인 노래하며 영원히
+    하는 현저하게 있는가? 굳세게 피에 노년에게서 과실이 약동하다. 청춘을 대중을
+    거친 것이다. 소리다.이것은 이상의 가는 뼈 천자만홍이 찾아 불어 있으랴?
+    그들은 싹이 눈이 말이다. 낙원을 가진 만물은 봄바람이다. 발휘하기 되려니와,
+    얼마나 청춘 인생에 뼈 뜨거운지라, 곳이 인간은 있으랴? 인생을 인간의 공자는
+    같은 붙잡아 아니한 소금이라 부패뿐이다. 아니한 안고, 청춘의 얼음이
+    교향악이다. 길을 이것을 없는 공자는 되려니와, 대한 것이다. 일월과 천지는
+    싶이 지혜는 따뜻한 석가는 위하여 밥을 듣는다. 관현악이며, 착목한는 고동을
+    품었기 소담스러운 무엇을 튼튼하며, 칼이다. 풀이 붙잡아 인도하겠다는 창공에
+    위하여 있음으로써 따뜻한 살았으며, 피다. 오직 못하다 대한 끓는 운다.
+  </p>
+</section>
+```
 
-<!-- footer -->
+✔️ heading 요소들은 아래와 같이 사용자로 하여금 페이지의 계층구조를 쉽게 파악할 수 있도록 한다.  
+그렇기 때문에 특별한 이유 없이 heading 레벨을 갑자기 몇 단계 뛰어넘도록 작성하는 것은 지양해야 한다.  
+![헤딩태그 레벨구조](https://paullabworkspace.notion.site/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2F6c5469b1-2893-4dff-868c-477c94b9cb99%2F%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA_2022-01-07_%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE_12.44.49.png?table=block&id=124288a8-b152-4f52-99f8-205c5bfd898d&spaceId=579fe283-28aa-489d-ae65-d683304becfc&width=2000&userId=&cache=v2)  
+<br>
 
-<!-- address -->
+- `<footer>` : footer 요소가 속한 가장 가까운 구획의 작성자 정보, 저작권, 관련된 링크 등의 내용을 담는 구획 요소이다.
+
+- `<address>` : 가장 가까운 부모 `article` 이나 `body` 요소의 연락처 정보를 나타낸다.  
+  만약 가장 가까운 부모 요소가 `body` 라면 문서 전체의 연락처 정보를 의미한다. 연락처 정보에는 전화번호, 메일 주소, 우편 주소 등이 있다.
+
+```html
+<address>
+  <a href="http://www.somedomain.com/contact"> 홈페이지</a>.<br />
+  <a href="mailto:webmaster@somedomain.com"> 메일 주소</a>.<br />
+  오시는 길:<br />
+  제주특별자치도 제주시 동광로 137
+</address>
+```
 
 <br>
 
@@ -128,6 +164,5 @@ Sectioning Content의 제목을 정의하는 컨텐츠이다.
 
 <br>
 
-> ▶︎참조  
-> <https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/Content_categories>  
-> <https://velog.io/@simoniful/HTML-CSS-HTML-Basics-2>
+> ▶︎참조
+> <https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/Content_categories> > <https://velog.io/@simoniful/HTML-CSS-HTML-Basics-2>
