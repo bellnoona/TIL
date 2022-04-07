@@ -140,8 +140,10 @@ Sectioning Content의 제목을 정의하는 컨텐츠이다.
 ```
 
 ✔️ heading 요소들은 아래와 같이 사용자로 하여금 페이지의 계층구조를 쉽게 파악할 수 있도록 한다.  
-그렇기 때문에 특별한 이유 없이 heading 레벨을 갑자기 몇 단계 뛰어넘도록 작성하는 것은 지양해야 한다.  
-![헤딩태그 레벨구조](https://paullabworkspace.notion.site/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2F6c5469b1-2893-4dff-868c-477c94b9cb99%2F%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA_2022-01-07_%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE_12.44.49.png?table=block&id=124288a8-b152-4f52-99f8-205c5bfd898d&spaceId=579fe283-28aa-489d-ae65-d683304becfc&width=2000&userId=&cache=v2)  
+그렇기 때문에 특별한 이유 없이 heading 레벨을 갑자기 몇 단계 뛰어넘도록 작성하는 것은 지양해야 한다.
+
+![헤딩태그 레벨구조](https://paullabworkspace.notion.site/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2F6c5469b1-2893-4dff-868c-477c94b9cb99%2F%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA_2022-01-07_%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE_12.44.49.png?table=block&id=124288a8-b152-4f52-99f8-205c5bfd898d&spaceId=579fe283-28aa-489d-ae65-d683304becfc&width=2000&userId=&cache=v2)
+
 <br>
 
 - `<footer>` : footer 요소가 속한 가장 가까운 구획의 작성자 정보, 저작권, 관련된 링크 등의 내용을 담는 구획 요소이다.
