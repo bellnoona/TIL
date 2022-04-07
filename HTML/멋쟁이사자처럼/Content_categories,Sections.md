@@ -13,6 +13,9 @@
 - Interacitve Content
 
 [![Sectioning Content](https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/Content_categories/content_categories_venn.png)](https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/Content_categories)
+```
+▶︎ 이미지를 누르면 mdn 사이트로 이동합니다.
+```
 
 <br>
 
