@@ -12,6 +12,4 @@
 > `<main>`  
 > `<hr>`
 
-<br>
-
-<span style="background-color: #fff5b1">`<ol>`, `<ul>`, `<li>`</span>
+<br><h2 style="background-color: #fff5b1"> `<ol>`, `<ul>`, `<li>` </h2x>
