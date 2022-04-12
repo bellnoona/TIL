@@ -99,7 +99,7 @@
 </html>
 ```
 
-![position relative 이미지](https://paullabworkspace.notion.site/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2F125f0653-a389-4383-997f-bd0b4927e51b%2FUntitled.png?table=block&id=d955177a-378c-4a0c-bbaa-3087e80c9f7e&spaceId=579fe283-28aa-489d-ae65-d683304becfc&width=2000&userId=&cache=v2)
+![position relative 이미지](https://paullabworkspace.notion.site/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2F125f0653-a389-4383-997f-bd0b4927e51b%2FUntitled.png?table=block&id=d955177a-378c-4a0c-bbaa-3087e80c9f7e&spaceId=579fe283-28aa-489d-ae65-d683304becfc&width=2000&userId=&cache=v2)   
 ▶️ relative 속성을 주어 box2가 원래 있어야 할 자리에서 왼쪽으로 40px 떨어뜨린 모습이다.
 
 <br>
@@ -316,10 +316,10 @@ absolute의 특징을 굳이 한 단어로 설명하자면 <span style="color: #
 </html>
 ```
 
-1️⃣ `position: fixed;`
+1️⃣ `position: fixed;`   
 ![position fixed 비교 예제](/imgs/fixed-ex.gif)
 
-2️⃣ `position: sticky;`
+2️⃣ `position: sticky;`   
 ![position sticky 비교 예제](/imgs/sticky-ex.gif)
 
 ```htlm
