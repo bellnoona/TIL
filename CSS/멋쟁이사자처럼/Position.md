@@ -280,7 +280,7 @@ absolute의 특징을 굳이 한 단어로 설명하자면 <span style="color: #
 <br>
 
 <span style="font-size: 20px; font-weight: 600;"> ⁉️ `position: fixed;` vs `position: sticky;`</span>  
-▶️ 아래 두개의 코드펜은 같은 예제로 position 속성만 fixed, sticky로 변경한 결과이다.
+▶️ 아래 두개의 git 같은 예제로 position 속성만 fixed, sticky로 변경한 결과이다.
 
 ```html
 <!DOCTYPE html>
@@ -320,7 +320,18 @@ absolute의 특징을 굳이 한 단어로 설명하자면 <span style="color: #
 ![position fixed 비교 예제](/imgs/fixed-ex.gif)
 
 2️⃣ `position: sticky;`   
-![position sticky 비교 예제](/imgs/sticky-ex.gif)
+![position sticky 비교 예제](/imgs/sticky-ex.gif)   
+  
+ 
+▶️ `fixed`는 문서 흐름에서 완전히 이탈된다. viewport에 고정되어서 스크롤을 해도 지정된 자기 위치에서 절대 움직이지 않는다.  
+반면, `sticky`는 일반적인 문서 흐름에 따라 배치된다. 스크롤을 따라 움직이다가 가장 가까운 부모 element 기준으로 배치된다. 내가 정한 offset에 닿으면 그 순간부터 fixed 처럼 고정이 되다가 해당 부모의 위치가 스크롤에서 벗어나면 고정되던 위치가 사라진다. 최초에 relative 속성처럼 동작하다가 스크롤이 특정 지점에 도달하면 fixed 속성으로 동작하는 것이다.
+
+<br>
+
+<h3> <span style="color: #808080; background-color: #fff5b1;">2.6 z-index<span> </h3>   
+
+z-index는 자신이 있어야하는 위치에 상대적인 값을 가진다. 단, 부모가 z-index를 높여 자식 앞으로 나올 수 없다. 자식은 z-index를 낮춰 부모 뒤로 가는 것은 가능하다.
+![z-index 이미지](https://paullabworkspace.notion.site/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2Fb4b18be5-cc40-4f7f-b8cb-0ef49084ae15%2Fx-index.png?table=block&id=afc1c9e6-4ad5-4f3d-9c52-972cf5a9665a&spaceId=579fe283-28aa-489d-ae65-d683304becfc&width=2000&userId=&cache=v2)  
 
 ```htlm
 <!DOCTYPE html>
