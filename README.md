@@ -1,6 +1,6 @@
 # Today I Learned
 
-This is where I record what I leared today.
+This is where I record what I learned today.
 
 </br>
 
